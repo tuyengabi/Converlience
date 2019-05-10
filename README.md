@@ -1,5 +1,5 @@
 # Converlience
-### site "vitrine" réalisé pour un projet d'ecologie.
+### Un web site réalisé pour un vrai client projet d'ecologie.
 --------------------
 ![https://www.github.com/tuyengabi](./assets/photos/logoreadme.png)
 
@@ -11,7 +11,7 @@
  
  -------------------
 
-## structure du projet :
+## Structure du projet :
 
  * Une page d'accueil
  * Une page de thématic
@@ -20,7 +20,7 @@
  
  ---------------------
 
-## Techno utilisées
+## Techno utilisées :
 
  * HTML/CSS
  * JavaScript Vanilla
