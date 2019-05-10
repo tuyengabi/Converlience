@@ -1,5 +1,5 @@
 # Converlience
-### Un web site réalisé pour un vrai client projet d'ecologie.
+### Un web site réalisé bénévolement pour un projet d'ecologie.
 --------------------
 ![https://www.github.com/tuyengabi](./assets/photos/logoreadme.png)
 
@@ -7,16 +7,17 @@
 
  * Elias : lien github : https://github.com/yatoogamii
  * Tuyen : lien github : https://github.com/tuyengabi
- * Sadia : lien github : https://github.com/bssoleil
+ * Lucas : lien github : https://github.com/Lhourquin
  
  -------------------
 
 ## Structure du projet :
 
  * Une page d'accueil
- * Une page de thématic
+ * Une page de thématique
  * Une page des articles
  * Une page de boutique
+ * Une page de Wiki
  
  ---------------------
 
