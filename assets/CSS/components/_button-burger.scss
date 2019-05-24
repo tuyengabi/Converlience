@@ -1,6 +1,27 @@
 .button-burger {
- background-color: $header;
- width: 5rem;
- height: 5rem;
- border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  background-color: #fff;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+
+    i {
+      color: #fff;
+    }
+  }
+  i {
+    color: #1D1D1D;
+    font-size: 1.2rem;
+  }
 }
