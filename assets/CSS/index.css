@@ -15,6 +15,7 @@
 .button-burger {
   position: absolute;
   left: 50%;
+  bottom: 5%;
   background-color: #fff;
   width: 3.5rem;
   height: 3.5rem;
@@ -34,21 +35,63 @@
     color: #1D1D1D;
     font-size: 1.2rem; }
 
+.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+  width: 25vw;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  font-size: 2rem; }
+
+.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+  width: 25vw;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  font-size: 2rem; }
+
+.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+  width: 25vw;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  font-size: 2rem; }
+
+.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+  width: 25vw;
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  font-size: 2rem; }
+
 .container-header {
   background-color: #cceeff;
-  padding: 0.5% 0 0.5% 0; }
+  padding: 0.5% 0 0.5% 0;
+  height: 10vh; }
   .container-header div {
     display: flex;
     justify-content: space-between; }
     .container-header div img {
-      height: 7vw; }
+      height: 4.5vw; }
     .container-header div a {
-      font-size: 2vw;
-      margin-top: 2.5%;
+      font-size: 1.5vw;
+      margin-top: 1.5%;
       color: black;
       padding: 0 3% 0 3%; }
       .container-header div a:hover {
         color: white; }
+
+.container-themes {
+  display: flex; }
+  .container-themes .section__article--clicked {
+    display: none; }
 
 .home {
   width: 100vw;
