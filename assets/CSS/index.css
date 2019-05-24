@@ -102,8 +102,6 @@
 
 .container-themes {
   display: flex; }
-  .container-themes .section__article--clicked {
-    display: none; }
 
 .home {
   width: 100vw;
