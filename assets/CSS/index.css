@@ -12,6 +12,7 @@
 .button-burger {
   position: absolute;
   left: 50%;
+  bottom: 5%;
   background-color: #fff;
   width: 3.5rem;
   height: 3.5rem;
@@ -88,5 +89,13 @@
   display: flex; }
   .container-themes .section__article--clicked {
     display: none; }
+
+.home {
+  width: 100vw;
+  height: 100vh; }
+
+.navbar {
+  width: 100vw;
+  height: 100vh; }
 
 /*# sourceMappingURL=index.css.map */
