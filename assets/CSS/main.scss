@@ -4,14 +4,21 @@
 
 @import 'abstracts/variables.scss';
 
+////////////
+//  base  //
+////////////
+
+@import 'base/reset.scss';
+
+//////////////////
+//  components  //
+//////////////////
+
+@import 'components/button-burger.scss';
+
 //////////////
 //  layout  //
 //////////////
 
 @import 'layout/header.scss';
 
-////////////
-//  base  //
-////////////
-
-@import 'base/reset.scss';

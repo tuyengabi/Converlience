@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  box-sizing: border-box; }
+
+.button-burger {
+  background-color: #cceeff;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%; }
+
 .container-header {
   background-color: #cceeff;
   padding: 0.5% 0 0.5% 0; }
@@ -13,16 +30,5 @@
       padding: 0 3% 0 3%; }
       .container-header div a:hover {
         color: white; }
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  box-sizing: border-box; }
 
 /*# sourceMappingURL=index.css.map */
