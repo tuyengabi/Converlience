@@ -1,16 +1,17 @@
 .container-header{
     background-color : #cceeff;
     padding : 0.5% 0 0.5% 0;
+    height: 10vh;
     div{
          display : flex;
          justify-content: space-between;
          img{
-             height : 7vw;
+             height : 4.5vw;
              
          }
          a{
-             font-size: 2vw;
-             margin-top: 2.5%;
+             font-size: 1.5vw;
+             margin-top: 1.5%;
              color: black;
              padding : 0 3% 0 3%;
              &:hover{
