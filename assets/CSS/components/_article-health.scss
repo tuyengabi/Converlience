@@ -1,5 +1,7 @@
 @import './../abstracts/extends';
+@import './../abstracts/variables';
 
 .section-health__article--no-clicked{
    @extend %no-clicked;
+   background-color: $health;
 }

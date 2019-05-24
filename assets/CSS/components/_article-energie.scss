@@ -1,5 +1,7 @@
 @import './../abstracts/extends';
+@import './../abstracts/variables';
 
 .section-energie__article--no-clicked{
    @extend %no-clicked;
+   background-color: $energy;
 }
