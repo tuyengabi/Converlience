@@ -1,6 +1,17 @@
-//header
-@import
- 'layout/header.scss';
- //reset
- @import
- 'base/reset.scss';
+/////////////////
+//  abstracts  //
+/////////////////
+
+@import 'abstracts/variables.scss';
+
+//////////////
+//  layout  //
+//////////////
+
+@import 'layout/header.scss';
+
+////////////
+//  base  //
+////////////
+
+@import 'base/reset.scss';
