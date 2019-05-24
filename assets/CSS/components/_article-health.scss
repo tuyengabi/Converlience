@@ -1,0 +1,5 @@
+@import './../abstracts/extends';
+
+.section-health__article--no-clicked{
+   @extend %no-clicked;
+}

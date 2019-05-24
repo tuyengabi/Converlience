@@ -1,0 +1,5 @@
+@import './../abstracts/extends';
+
+.section-jardinage__article--no-clicked{
+   @extend %no-clicked;
+}
