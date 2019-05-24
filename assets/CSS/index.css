@@ -1,104 +1,89 @@
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: sans-serif;
-  font-size: 1em;
-  font-weight: normal;
-  font-style: normal;
-  text-decoration: none;
-  box-sizing: border-box; }
+/*
+Error: Invalid CSS after "    width:": expected expression (e.g. 1px, bold), was "}"
+        on line 8 of components/_article-clicked.scss
+        from line 17 of main.scss
 
-.section__article--clicked {
-  display: flex; }
+3:   width: 100vh;
+4:   height: 90vh;
+5:   
+6:   .article__description {
+7:     width:
+8:   }
+9: 
+10:   .sidebar-article-clicked {
+11: 
+12:   }
+13: }
 
-.button-burger {
-  position: absolute;
-  left: 50%;
-  bottom: 5%;
-  background-color: #fff;
-  width: 3.5rem;
-  height: 3.5rem;
-  border-radius: 50%;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none; }
-  .button-burger:hover {
-    background-color: #2EE59D;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px); }
-    .button-burger:hover i {
-      color: #fff; }
-  .button-burger i {
-    color: #1D1D1D;
-    font-size: 1.2rem; }
-
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
-  width: 25vw;
-  height: 90vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  font-size: 2rem; }
-
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
-  width: 25vw;
-  height: 90vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  font-size: 2rem; }
-
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
-  width: 25vw;
-  height: 90vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  font-size: 2rem; }
-
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
-  width: 25vw;
-  height: 90vh;
-  text-align: center;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-around;
-  font-size: 2rem; }
-
-.container-header {
-  background-color: #cceeff;
-  padding: 0.5% 0 0.5% 0;
-  height: 10vh; }
-  .container-header div {
-    display: flex;
-    justify-content: space-between; }
-    .container-header div img {
-      height: 4.5vw; }
-    .container-header div a {
-      font-size: 1.5vw;
-      margin-top: 1.5%;
-      color: black;
-      padding: 0 3% 0 3%; }
-      .container-header div a:hover {
-        color: white; }
-
-.container-themes {
-  display: flex; }
-  .container-themes .section__article--clicked {
-    display: none; }
-
-.home {
-  width: 100vw;
-  height: 100vh; }
-
-.navbar {
-  width: 100vw;
-  height: 100vh; }
-
-/*# sourceMappingURL=index.css.map */
+Backtrace:
+components/_article-clicked.scss:8
+main.scss:17
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1207:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/script/lexer.rb:229:in `expected!'
+/usr/lib/ruby/vendor_ruby/sass/script/parser.rb:710:in `assert_expr'
+/usr/lib/ruby/vendor_ruby/sass/script/parser.rb:75:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1063:in `sass_script'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:909:in `value!'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:778:in `block in try_declaration'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1183:in `rethrow'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:791:in `try_declaration'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:720:in `declaration_or_ruleset'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:685:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:735:in `declaration_or_ruleset'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:685:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:677:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:666:in `block'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:658:in `ruleset'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:684:in `block_child'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:674:in `block_contents'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:125:in `stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:41:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:406:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:312:in `to_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:88:in `block in with_import'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:88:in `with_import'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:325:in `visit_import'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `block in with_base'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:115:in `with_frame'
+/usr/lib/ruby/vendor_ruby/sass/stack.rb:79:in `with_base'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:160:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `map'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:181:in `with_environment'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:168:in `visit_children'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:188:in `visit_root'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/base.rb:36:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:159:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:36:in `css_tree'
+/usr/lib/ruby/vendor_ruby/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:381:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:298:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:473:in `on_file_changed'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:331:in `block in watch'
+/usr/lib/ruby/vendor_ruby/listen/event/config.rb:23:in `call'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:115:in `_process_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:19:in `block in loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop'
+/usr/lib/ruby/vendor_ruby/listen/event/processor.rb:15:in `loop_for'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:84:in `_wait_for_changes'
+/usr/lib/ruby/vendor_ruby/listen/event/loop.rb:42:in `block in setup'
+/usr/lib/ruby/vendor_ruby/listen/internals/thread_pool.rb:6:in `block in add'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"    width:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 8 of components/_article-clicked.scss\A         from line 17 of main.scss\A \A 3:   width: 100vh;\A 4:   height: 90vh;\A 5:   \A 6:   .article__description {\A 7:     width:\A 8:   }\A 9: \A 10:   .sidebar-article-clicked {\A 11: \A 12:   }\A 13: }"; }
