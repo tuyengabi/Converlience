@@ -1,5 +1,6 @@
 .container-header {
-  background-color: #cceeff; }
+  background-color: #cceeff;
+  padding: 0.5% 0 0.5% 0; }
   .container-header div {
     display: flex;
     justify-content: space-between; }
@@ -10,6 +11,8 @@
       margin-top: 2.5%;
       color: black;
       padding: 0 3% 0 3%; }
+      .container-header div a:hover {
+        color: white; }
 
 * {
   margin: 0;
