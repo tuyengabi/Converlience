@@ -37,7 +37,7 @@
     color: #1D1D1D;
     font-size: 1.2rem; }
 
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+.section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy__article--no-clicked {
   width: 25vw;
   height: 90vh;
   text-align: center;
@@ -49,7 +49,7 @@
 .section-health__article--no-clicked {
   background-color: #8766cc; }
 
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+.section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy__article--no-clicked {
   width: 25vw;
   height: 90vh;
   text-align: center;
@@ -58,10 +58,10 @@
   justify-content: space-around;
   font-size: 2rem; }
 
-.section-alimentation__article--no-clicked {
+.section-food__article--no-clicked {
   background-color: #ff6666; }
 
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+.section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy__article--no-clicked {
   width: 25vw;
   height: 90vh;
   text-align: center;
@@ -70,10 +70,10 @@
   justify-content: space-around;
   font-size: 2rem; }
 
-.section-jardinage__article--no-clicked {
+.section-garden__article--no-clicked {
   background-color: #7ebf4c; }
 
-.section-health__article--no-clicked, .section-alimentation__article--no-clicked, .section-jardinage__article--no-clicked, .section-energie__article--no-clicked {
+.section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy__article--no-clicked {
   width: 25vw;
   height: 90vh;
   text-align: center;
@@ -82,7 +82,7 @@
   justify-content: space-around;
   font-size: 2rem; }
 
-.section-energie__article--no-clicked {
+.section-energy__article--no-clicked {
   background-color: #6698ff; }
 
 .container-header {
