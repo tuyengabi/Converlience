@@ -1,7 +1,7 @@
 @import './../abstracts/extends';
 @import './../abstracts/variables';
 
-.section-jardinage__article--no-clicked{
+.section-food__article--no-clicked{
    @extend %no-clicked;
-   background-color: $gardening;
+   background-color: $food;
 }
