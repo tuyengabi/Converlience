@@ -1,4 +1,15 @@
 .navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   width: 100vw;
   height: 100vh;
+  background-color: $food;
+
+  img {
+    position: relative;
+    margin-top: 0.5rem;
+    height: 4rem;
+  }
 }

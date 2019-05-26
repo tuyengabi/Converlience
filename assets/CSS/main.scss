@@ -15,11 +15,12 @@
 //////////////////
 
 @import 'components/article-clicked.scss';
-@import 'components/button-burger.scss';
 @import 'components/article-health.scss';
 @import 'components/article-food.scss';
 @import 'components/article-garden.scss';
 @import 'components/article-energy.scss';
+@import 'components/button-burger.scss';
+@import 'components/navbar-link.scss';
 
 //////////////
 //  layout  //
@@ -29,4 +30,5 @@
 @import 'layout/main.scss';
 @import 'layout/home.scss';
 @import 'layout/navbar.scss';
+@import 'layout/footer.scss';
 
