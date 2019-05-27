@@ -25,8 +25,7 @@
 
  * HTML/CSS
  * JavaScript Vanilla
- * Architecture 7-1
  * Sass
- * Framework CSS 
+ * Architecture 7-1
  * Convention : BEM
 
