@@ -64,7 +64,7 @@
 
 .button-burger {
   position: absolute;
-  left: 50%;
+  left: calc(50% - 1.75rem);
   bottom: 5%;
   background-color: #fff;
   width: 3.5rem;
