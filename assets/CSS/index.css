@@ -64,7 +64,7 @@
 
 .button-burger {
   position: absolute;
-  left: 50%;
+  left: calc(50% - 1.75rem);
   bottom: 5%;
   background-color: #fff;
   width: 3.5rem;
@@ -104,6 +104,15 @@
 .navbar__link-row-2 {
   width: 50%; }
 
+.container-social {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+  .container-social i {
+    color: #1D1D1D;
+    font-size: 1.5rem; }
+
 .container-header {
   background-color: #cceeff;
   padding: 0.5% 0 0.5% 0;
@@ -138,7 +147,7 @@
   background-color: #ff6666; }
   .navbar img {
     position: relative;
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     height: 4rem; }
 
 .footer {
