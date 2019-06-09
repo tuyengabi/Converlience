@@ -11,7 +11,7 @@
 }
 
 .displayNone {
-  display: none;
+  display: none !important;
 }
 
 .section__article--clicked {
