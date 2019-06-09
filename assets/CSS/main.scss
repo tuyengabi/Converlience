@@ -21,7 +21,7 @@
 @import 'components/article-energy.scss';
 @import 'components/button-burger.scss';
 @import 'components/navbar-link.scss';
-@import 'components/_social-network.scss';
+@import 'components/social-network.scss';
 
 //////////////
 //  layout  //
@@ -38,3 +38,9 @@
 //////////////
 
 @import 'event/displayNone.scss'
+
+///////////////
+//  Vendors  //
+///////////////
+
+@import 'vendors/animate.min.scss';
