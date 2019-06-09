@@ -9,6 +9,7 @@
 ////////////
 
 @import 'base/reset.scss';
+@import 'base/base';
 
 //////////////////
 //  components  //
@@ -32,12 +33,6 @@
 @import 'layout/home.scss';
 @import 'layout/navbar.scss';
 @import 'layout/footer.scss';
-
-//////////////
-//  event  //
-//////////////
-
-@import 'event/displayNone.scss';
 
 ///////////////
 //  Vendors  //

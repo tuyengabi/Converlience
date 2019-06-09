@@ -10,6 +10,10 @@
   box-sizing: border-box;
 }
 
+.displayNone {
+  display: none;
+}
+
 .section__article--clicked {
   display: flex;
   width: 100vh;
@@ -192,10 +196,6 @@
 }
 .footer .footer__copyright {
   width: 100%;
-}
-
-.displayNone {
-  display: none;
 }
 
 /*# sourceMappingURL=index.css.map */
