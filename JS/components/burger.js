@@ -1,8 +1,5 @@
 "use strict";
 
-const burger = document.getElementsByClassName("button-burger");
-
-
 function openNavBar() {
     const main = document.getElementsByTagName("main")[0];
     const nav = document.getElementsByClassName("navbar")[0];
