@@ -1,4 +1,6 @@
 .home {
   width: 100vw;
-  height: 100vh;
+  max-width: 100%;
+  height: calc(100vh - 5.5vw);
+  max-height: 100%;
 }

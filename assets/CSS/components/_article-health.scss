@@ -1,6 +1,10 @@
 @import './../abstracts/extends';
 @import './../abstracts/variables';
 
+.section-health{
+   width: 25%;
+}
+
 .section-health__article--no-clicked{
    @extend %no-clicked;
    background-color: $health;

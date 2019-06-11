@@ -1,6 +1,10 @@
 @import './../abstracts/extends';
 @import './../abstracts/variables';
 
+.section-garden{
+   width: 25%;
+}
+
 .section-garden__article--no-clicked{
    @extend %no-clicked;
    background-color: $gardening;

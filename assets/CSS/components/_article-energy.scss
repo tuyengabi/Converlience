@@ -1,6 +1,11 @@
 @import './../abstracts/extends';
 @import './../abstracts/variables';
 
+.section-energy{
+   width : 25%;
+
+}
+
 .section-energy__article--no-clicked{
    @extend %no-clicked;
    background-color: $energy;
