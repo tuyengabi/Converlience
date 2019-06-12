@@ -4,19 +4,25 @@
   width: 100vw;
   height: 100%;
   max-height: 100%;
+  .button-close{
+    height: 10%;
+    width: 10%;
+    position: fixed;
+   // margin-left: 100px;
+  }
   .article__description {
     display : grid;
     height: 100%;
     grid-template-columns: 10% 60% 10% 20%;
-    grid-template-rows: 10% 70% 5% 5% 5%;
-    h2{
+    grid-template-rows: 10% 60% 15% 15% 15%;
+    .title-article-clicked{
       font-size: 3rem;
       grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 2;
     }
-    p{
+    .description-article-clicked{
       font-size: 1.5rem;
       grid-row-start: 2;
       grid-row-end: 3;
@@ -24,7 +30,7 @@
       grid-column-end: 3;
       padding: 3rem;
     }
-    div{
+    .image-article-clicked{
       grid-column-start: 3;
       grid-column-end: 5;
       background-color: blue;
@@ -32,23 +38,34 @@
       grid-row-end: 5;
       width : 100%;
     }
-    button{
+    .button-cta{
       font-size: 2rem;
       font-size: 2rem;
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 3;
+    width: 90%;
+    height: 40%;
+    text-align: center;
     }
   }
 
   .sidebar-article-clicked {
-    width : 10%;
+    width : 35%;
     display:flex;
     flex-direction: column;
-    div{
+    .sidebar-thematics{
       height: 100%;
+      border: solid black;
       text-align:center;
+      background-color: red;
+      .sidebar-title{
+        margin-top: 5rem;
+      }
+      i{
+        margin-top: 3rem;
+      }
     }
   }
 }
