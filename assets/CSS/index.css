@@ -32,14 +32,16 @@
       grid-column-start: 2;
       grid-column-end: 4;
       grid-row-start: 1;
-      grid-row-end: 2; }
+      grid-row-end: 2;
+      margin-top: 2rem; }
     .section__article--clicked .article__description .description-article-clicked {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       grid-row-start: 2;
       grid-row-end: 3;
       grid-column-start: 2;
       grid-column-end: 3;
-      padding: 3rem; }
+      margin-top: 3rem;
+      width: 70%; }
     .section__article--clicked .article__description .image-article-clicked {
       grid-column-start: 3;
       grid-column-end: 5;
@@ -49,27 +51,26 @@
       width: 100%; }
     .section__article--clicked .article__description .button-cta {
       font-size: 2rem;
-      font-size: 2rem;
       grid-column-start: 2;
       grid-column-end: 3;
       grid-row-start: 3;
       grid-row-end: 3;
-      width: 90%;
-      height: 40%;
-      text-align: center; }
+      width: 70%;
+      height: 50%; }
   .section__article--clicked .sidebar-article-clicked {
     width: 35%;
     display: flex;
     flex-direction: column; }
     .section__article--clicked .sidebar-article-clicked .sidebar-thematics {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       height: 100%;
       border: solid black;
       text-align: center;
       background-color: red; }
       .section__article--clicked .sidebar-article-clicked .sidebar-thematics .sidebar-title {
         margin-top: 5rem; }
-      .section__article--clicked .sidebar-article-clicked .sidebar-thematics i {
-        margin-top: 3rem; }
 
 .section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy__article--no-clicked {
   width: 100%;
