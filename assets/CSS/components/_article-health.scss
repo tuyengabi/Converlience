@@ -3,9 +3,11 @@
 
 .section-health{
    width: 25%;
-}
-
-.section-health__article--no-clicked{
+   .section-health__article--no-clicked{
    @extend %no-clicked;
    background-color: $health;
 }
+
+}
+
+
