@@ -25,10 +25,10 @@
     <main class="container-themes">
 
       <!-- Section Santé -->
-      <section class="section-health ">
+      <section class="section-health displayNone">
 
         <!-- Section no clicked -->
-        <article onclick=openTheme() class="section-health__article--no-clicked">
+        <article onclick=openTheme() class="section-health__article--no-clicked displayNone">
           <h2>Santé</h2>
           <i class="far fa-heart"></i>
         </article>
@@ -79,14 +79,14 @@
       <section class="section-energy">
 
         <!-- Section no clicked -->
-        <article class="section-energy__article--no-clicked ">
+        <article class="section-energy__article--no-clicked displayNone">
           <h2>Energie</h2>
           <i class="fas fa-solar-panel"></i>
         </article>
         <!-- Section no clicked -->
 
         <!-- Section clicked -->
-        <article class="section__article--clicked section__article--clicked-energy displayNone">
+        <article class="section__article--clicked section__article--clicked-energy ">
 
           <!-- Principal content -->
           <div class="article__description">
@@ -131,7 +131,7 @@
       <section class="section-food">
 
         <!-- Section no clicked -->
-        <article class="section-food__article--no-clicked ">
+        <article class="section-food__article--no-clicked displayNone">
           <h2>Alimentation</h2>
           <i class="fas fa-apple-alt"></i>
         </article>
@@ -182,7 +182,7 @@
       <section class="section-garden ">
 
         <!-- Section no clicked -->
-        <article class="section-garden__article--no-clicked ">
+        <article class="section-garden__article--no-clicked displayNone">
           <h2>Jardinage</h2>
           <i class="fas fa-seedling"></i>
         </article>
@@ -277,5 +277,6 @@
     <!-- When button burger is clicked -->
 <script src="JS/components/burger.js"></script>
 <script src="JS/components/sante.js"></script>
+<script src="JS/components/close.js"></script>
   </body>
 </html>
