@@ -73,21 +73,18 @@ health.addEventListener("click", ()=> {
     for(let i=0; i < clicked.length;i++){
 
         clicked[i].classList.remove('displayNone');
+        
 
     }
 });
+    
+
 
 //////////////// BUTTON-CLOSE EVENT ///////////////////
 
-for(let i = 0; i < clicked.length; i++){
 
-        close[i].addEventListener("click", ()=> {
-
-            
-            clicked[i].classList.add('displayNone');
-            
-        
-            
-
+for (let i=0; i < close.length; i++){
+        close[i].addEventListener('click', ()=> {
+            clicked[i].classList.toggle('displayNone');
     });
 }
