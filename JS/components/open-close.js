@@ -5,6 +5,7 @@ const close = document.getElementsByClassName('button-close');
 //target all artcile-clicked
 const clicked = document.getElementsByClassName('section__article--clicked');
 //target all section
+const section = document.getElementsByTagName('section');
 const energy = document.getElementsByClassName("section-energy")[0];
 const health = document.getElementsByClassName("section-health")[0];
 const garden = document.getElementsByClassName("section-garden")[0];
@@ -82,9 +83,8 @@ health.addEventListener("click", ()=> {
 
 //////////////// BUTTON-CLOSE EVENT ///////////////////
 
-
 for (let i=0; i < close.length; i++){
-        close[i].addEventListener('click', ()=> {
-            clicked[i].classList.toggle('displayNone');
-    });
+    close[i].addEventListener('click', ()=> {
+        clicked[i].classList.toggle('displayNone');
+});
 }
