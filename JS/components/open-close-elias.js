@@ -26,11 +26,11 @@
     const buttonClose = articleClicked.children[2];
 
     articleNoClicked.onclick = function() {
-      toggleAllElements();
+      toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
     }
 
     buttonClose.onclick = function() {
-      toggleAllElements();
+      toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
     }
   }
 
@@ -38,7 +38,7 @@
   //  function for toggle all elements  //
   ////////////////////////////////////////
 
-  function toggleAllElements() {
+  function toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked) {
     displayNone(containerThemes, 'toggle');
     displayNone(theme, 'toggle');
     displayNone(articleNoClicked, 'toggle');
