@@ -91,4 +91,3 @@ health.addEventListener("click", ()=> {
     close[0].addEventListener('click', ()=> {
         clicked[0].classList.add('displayNone');
 });
-
