@@ -23,16 +23,45 @@
 
     const articleNoClicked = theme.children[0];
     const articleClicked = theme.children[1];
+    const aside = articleClicked.children[1];
+    const divAside = aside.children;
     const buttonClose = articleClicked.children[2];
 
+    //////////////////
+    //  event Open ///
+    //////////////////
     articleNoClicked.onclick = function() {
       toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
     }
 
+    for (let i = 0; i < divAside.length; i ++){
+      divAside[i].addEventListener('click', ()=> {
+        if(divAside[i].classList.contains('sidebar-thematics-energy')){
+
+          console.log(theme);
+          console.log(divAside[i]);
+        }else if(divAside[i].classList.contains('sidebar-thematics-food')){
+          console.log(divAside[i]);
+        }else if(divAside[i].classList.contains('sidebar-thematics-garden')){
+          console.log(divAside[i]);
+        }else if(divAside[i].classList.contains('sidebar-thematics-health')){
+          console.log(divAside[i]);
+        }
+      });
+    }
+
+    ////////////////////
+    //  event Close  /// 
+    ////////////////////
     buttonClose.onclick = function() {
       toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
     }
   }
+
+  
+
+
+
 
   ////////////////////////////////////////
   //  function for toggle all elements  //
