@@ -37,7 +37,6 @@
     for (let i = 0; i < divAside.length; i ++){
       divAside[i].addEventListener('click', ()=> {
         if(divAside[i].classList.contains('sidebar-thematics-energy')){
-
           console.log(theme);
           console.log(divAside[i]);
         }else if(divAside[i].classList.contains('sidebar-thematics-food')){
@@ -72,6 +71,10 @@
     displayNone(theme, 'toggle');
     displayNone(articleNoClicked, 'toggle');
     displayNone(articleClicked, 'toggle');
+  }
+
+  function openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked ){
+    displayNone(containerThemes, 'toggle')
   }
   
   
@@ -124,3 +127,4 @@
         }
       }
     }
+
