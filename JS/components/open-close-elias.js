@@ -36,14 +36,24 @@
 
     for (let i = 0; i < divAside.length; i ++){
       divAside[i].addEventListener('click', ()=> {
+        
+
         if(divAside[i].classList.contains('sidebar-thematics-energy')){
-          console.log(theme);
-          console.log(divAside[i]);
+       
+          openDivThemeOnAside(containerThemes, theme, 1);
+          //console.log(theme);
+          //console.log(divAside[i]);
         }else if(divAside[i].classList.contains('sidebar-thematics-food')){
+          openDivThemeOnAside(containerThemes, theme, 2);
+
           console.log(divAside[i]);
         }else if(divAside[i].classList.contains('sidebar-thematics-garden')){
+          openDivThemeOnAside(containerThemes, theme, 3);
+
           console.log(divAside[i]);
         }else if(divAside[i].classList.contains('sidebar-thematics-health')){
+          openDivThemeOnAside(containerThemes, theme, 0);
+
           console.log(divAside[i]);
         }
       });
@@ -54,6 +64,9 @@
     ////////////////////
     buttonClose.onclick = function() {
       toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
+      displayNone(containerThemes[1].children[1], 'add');
+
+   
     }
   }
 
@@ -73,8 +86,21 @@
     displayNone(articleClicked, 'toggle');
   }
 
-  function openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked ){
-    displayNone(containerThemes, 'toggle')
+  function openDivThemeOnAside(containerThemes, theme,idxOfThemeContainer, articleNoClicked, articleClicked){
+    
+    
+
+    displayNone(containerThemes[idxOfThemeContainer], 'toggle');
+    displayNone(theme, 'toggle');
+   // displayNone(element[i], 'toggle');
+   // displayNone(theme[idxOfTheme], 'toggle');
+  
+   console.log(containerThemes[idxOfThemeContainer].children[0]);
+    displayNone(containerThemes[idxOfThemeContainer].children[0],'toggle');
+    displayNone(containerThemes[idxOfThemeContainer].children[1], 'toggle');
+   // displayNone(theme[idx], 'toggle');*/
+
+    
   }
   
   
@@ -107,6 +133,7 @@
       if (action == 'toggle') {
         element.classList.toggle('displayNone');
       }
+      
     }
   
   ////////////////////////////////////////////////////////////////////////
