@@ -56,9 +56,7 @@
     //  event Close  /// 
     ////////////////////
     buttonClose.onclick = function() {
-     // toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
-      closeElement(containerThemes, theme, articleNoClicked, articleClicked);
-      
+      toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);      
     }
   }
 
@@ -80,29 +78,16 @@
     
   }
 
-  function closeElement(containerThemes, theme, articleNoClicked, articleClicked) {
-    displayNone(containerThemes, 'toggle');
-    displayNone(theme, 'toggle');
-    displayNone(articleNoClicked, 'remove');
-   
-    displayNone(articleClicked, 'add');
-
-    
-  }
-
   ////////////////////////////////////////////////////
   // function for open div about the theme on aside //
   ////////////////////////////////////////////////////
 
   function openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked, idxOfThemeContainer){
     
-    
-
     displayNone(containerThemes[idxOfThemeContainer], 'remove');
     displayNone(theme, 'add');
-    displayNone(articleClicked, 'add');
     displayNone(articleNoClicked, 'remove');
-
+    displayNone(articleClicked, 'add');
     displayNone(containerThemes[idxOfThemeContainer].children[0],'add');
     displayNone(containerThemes[idxOfThemeContainer].children[1], 'remove');
     
