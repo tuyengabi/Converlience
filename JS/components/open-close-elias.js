@@ -90,14 +90,14 @@
     
     
 
-    displayNone(containerThemes[idxOfThemeContainer], 'toggle');
-    displayNone(theme, 'toggle');
+    displayNone(containerThemes[idxOfThemeContainer], 'remove');
+    displayNone(theme, 'add');
    // displayNone(element[i], 'toggle');
    // displayNone(theme[idxOfTheme], 'toggle');
   
    console.log(containerThemes[idxOfThemeContainer].children[0]);
-    displayNone(containerThemes[idxOfThemeContainer].children[0],'toggle');
-    displayNone(containerThemes[idxOfThemeContainer].children[1], 'toggle');
+    displayNone(containerThemes[idxOfThemeContainer].children[0],'add');
+    displayNone(containerThemes[idxOfThemeContainer].children[1], 'remove');
    // displayNone(theme[idx], 'toggle');*/
 
     
