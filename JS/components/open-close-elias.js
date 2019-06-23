@@ -30,32 +30,25 @@
     //////////////////
     //  event Open ///
     //////////////////
+
     articleNoClicked.onclick = function() {
       toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
     }
+
 
     for (let i = 0; i < divAside.length; i ++){
       divAside[i].addEventListener('click', ()=> {
         
 
-        if(divAside[i].classList.contains('sidebar-thematics-energy')){
-       
-          openDivThemeOnAside(containerThemes, theme, 1);
-          //console.log(theme);
-          //console.log(divAside[i]);
+        if(divAside[i].classList.contains('sidebar-thematics-energy')){      
+          openDivThemeOnAside(containerThemes, theme, articleClicked, 1);
         }else if(divAside[i].classList.contains('sidebar-thematics-food')){
-          openDivThemeOnAside(containerThemes, theme, 2);
-
-          console.log(divAside[i]);
+          openDivThemeOnAside(containerThemes, theme, articleClicked, 2);
         }else if(divAside[i].classList.contains('sidebar-thematics-garden')){
-          openDivThemeOnAside(containerThemes, theme, 3);
-
-          console.log(divAside[i]);
+          openDivThemeOnAside(containerThemes, theme, articleClicked, 3);        
         }else if(divAside[i].classList.contains('sidebar-thematics-health')){
-          openDivThemeOnAside(containerThemes, theme, 0);
-
-          console.log(divAside[i]);
-        }
+          openDivThemeOnAside(containerThemes, theme, articleClicked, 0);     
+           }
       });
     }
 
@@ -63,10 +56,9 @@
     //  event Close  /// 
     ////////////////////
     buttonClose.onclick = function() {
-      toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
-      displayNone(containerThemes[1].children[1], 'add');
-
-   
+     // toggleAllElements(containerThemes, theme, articleNoClicked, articleClicked);
+      closeElement(containerThemes, theme, articleNoClicked, articleClicked);
+      
     }
   }
 
@@ -84,22 +76,33 @@
     displayNone(theme, 'toggle');
     displayNone(articleNoClicked, 'toggle');
     displayNone(articleClicked, 'toggle');
+
+    
   }
 
-  function openDivThemeOnAside(containerThemes, theme,idxOfThemeContainer, articleNoClicked, articleClicked){
+  function closeElement(containerThemes, theme, articleNoClicked, articleClicked) {
+    displayNone(containerThemes, 'toggle');
+    displayNone(theme, 'toggle');
+    displayNone(articleNoClicked, 'remove');
+   
+    displayNone(articleClicked, 'add');
+
+    
+  }
+
+  ////////////////////////////////////////////////////
+  // function for open div about the theme on aside //
+  ////////////////////////////////////////////////////
+
+  function openDivThemeOnAside(containerThemes, theme, articleClicked, idxOfThemeContainer){
     
     
 
     displayNone(containerThemes[idxOfThemeContainer], 'remove');
     displayNone(theme, 'add');
-   // displayNone(element[i], 'toggle');
-   // displayNone(theme[idxOfTheme], 'toggle');
-  
-   console.log(containerThemes[idxOfThemeContainer].children[0]);
+    displayNone(articleClicked, 'add');
     displayNone(containerThemes[idxOfThemeContainer].children[0],'add');
     displayNone(containerThemes[idxOfThemeContainer].children[1], 'remove');
-   // displayNone(theme[idx], 'toggle');*/
-
     
   }
   
