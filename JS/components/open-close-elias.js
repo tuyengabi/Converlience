@@ -41,13 +41,13 @@
         
 
         if(divAside[i].classList.contains('sidebar-thematics-energy')){      
-          openDivThemeOnAside(containerThemes, theme, articleClicked, 1);
+          openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked, 1);
         }else if(divAside[i].classList.contains('sidebar-thematics-food')){
-          openDivThemeOnAside(containerThemes, theme, articleClicked, 2);
+          openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked, 2);
         }else if(divAside[i].classList.contains('sidebar-thematics-garden')){
-          openDivThemeOnAside(containerThemes, theme, articleClicked, 3);        
+          openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked, 3);        
         }else if(divAside[i].classList.contains('sidebar-thematics-health')){
-          openDivThemeOnAside(containerThemes, theme, articleClicked, 0);     
+          openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked, 0);     
            }
       });
     }
@@ -94,13 +94,15 @@
   // function for open div about the theme on aside //
   ////////////////////////////////////////////////////
 
-  function openDivThemeOnAside(containerThemes, theme, articleClicked, idxOfThemeContainer){
+  function openDivThemeOnAside(containerThemes, theme, articleNoClicked, articleClicked, idxOfThemeContainer){
     
     
 
     displayNone(containerThemes[idxOfThemeContainer], 'remove');
     displayNone(theme, 'add');
     displayNone(articleClicked, 'add');
+    displayNone(articleNoClicked, 'remove');
+
     displayNone(containerThemes[idxOfThemeContainer].children[0],'add');
     displayNone(containerThemes[idxOfThemeContainer].children[1], 'remove');
     
