@@ -1,5 +1,7 @@
+@import './../abstracts/variables';
+
 .container-header{
-    background-color : #cceeff;
+    background-color : $header;
     padding : 0.5% 0 0.5% 0;
     height: 5.5vw;
     div{
