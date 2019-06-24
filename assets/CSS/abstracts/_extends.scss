@@ -6,5 +6,12 @@
     flex-direction : column-reverse;
     justify-content: space-around;
     font-size: 2rem;
+   // box-sizing: border-box;
    // display: none;
+   &:hover{
+    transition: transform ease .2s;
+    transform-origin: 50% 50%;
+
+    transform: scale(1.09);
+   }
 }
