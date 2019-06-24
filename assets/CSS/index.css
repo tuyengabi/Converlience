@@ -68,11 +68,11 @@
       color: black;
       cursor: pointer; }
     .section__article--clicked .article__description .button-cta-health {
-      background-color: #8766cc; }
+      background-color: #AA0011; }
     .section__article--clicked .article__description .button-cta-food {
-      background-color: #ff6666; }
+      background-color: #ff7f66; }
     .section__article--clicked .article__description .button-cta-garden {
-      background-color: #7ebf4c; }
+      background-color: #6cd8a2; }
     .section__article--clicked .article__description .button-cta-energy {
       background-color: #6698ff; }
   .section__article--clicked .sidebar-article-clicked {
@@ -93,11 +93,11 @@
         transform-origin: 50% 50%;
         transform: scale(1.02); }
     .section__article--clicked .sidebar-article-clicked .sidebar-thematics-health {
-      background-color: #8766cc; }
+      background-color: #AA0011; }
     .section__article--clicked .sidebar-article-clicked .sidebar-thematics-food {
-      background-color: #ff6666; }
+      background-color: #ff7f66; }
     .section__article--clicked .sidebar-article-clicked .sidebar-thematics-garden {
-      background-color: #7ebf4c; }
+      background-color: #6cd8a2; }
     .section__article--clicked .sidebar-article-clicked .sidebar-thematics-energy {
       background-color: #6698ff; }
 
@@ -117,7 +117,7 @@
 .section-health {
   width: 25%; }
   .section-health .section-health__article--no-clicked {
-    background-color: #8766cc; }
+    background-color: #AA0011; }
 
 .section-health .section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy .section-energy__article--no-clicked {
   width: 100%;
@@ -136,7 +136,7 @@
   width: 25%; }
 
 .section-food__article--no-clicked {
-  background-color: #ff6666; }
+  background-color: #ff7f66; }
 
 .section-health .section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy .section-energy__article--no-clicked {
   width: 100%;
@@ -155,7 +155,7 @@
   width: 25%; }
 
 .section-garden__article--no-clicked {
-  background-color: #7ebf4c; }
+  background-color: #6cd8a2; }
 
 .section-health .section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy .section-energy__article--no-clicked {
   width: 100%;
@@ -227,7 +227,7 @@
     font-size: 1.5rem; }
 
 .container-header {
-  background-color: #cceeff;
+  background-color: #fffbe5;
   padding: 0.5% 0 0.5% 0;
   height: 5.5vw; }
   .container-header div {
@@ -263,7 +263,7 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #ff6666; }
+  background-color: #ff7f66; }
   .navbar img {
     position: relative;
     margin-top: 0.5rem;
