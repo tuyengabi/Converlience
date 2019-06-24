@@ -101,6 +101,11 @@
       .sidebar-title{
         margin-top: 5rem;
       }
+      &:hover{
+        transition: transform ease .2s;
+        transform-origin: 50% 50%;
+        transform: scale(1.02);
+   }
     }
     //div of aside for health
     .sidebar-thematics-health{
