@@ -118,6 +118,10 @@
   width: 25%; }
   .section-health .section-health__article--no-clicked {
     background-color: #a0c1b9; }
+    .section-health .section-health__article--no-clicked svg {
+      margin: auto; }
+    .section-health .section-health__article--no-clicked h2 {
+      margin-bottom: 7rem; }
 
 .section-health .section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy .section-energy__article--no-clicked {
   width: 100%;
@@ -137,6 +141,10 @@
 
 .section-food__article--no-clicked {
   background-color: #ffb599; }
+  .section-food__article--no-clicked svg {
+    margin: auto; }
+  .section-food__article--no-clicked h2 {
+    margin-bottom: 7rem; }
 
 .section-health .section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy .section-energy__article--no-clicked {
   width: 100%;
@@ -156,6 +164,10 @@
 
 .section-garden__article--no-clicked {
   background-color: #ddd78d; }
+  .section-garden__article--no-clicked svg {
+    margin: auto; }
+  .section-garden__article--no-clicked h2 {
+    margin-bottom: 7rem; }
 
 .section-health .section-health__article--no-clicked, .section-food__article--no-clicked, .section-garden__article--no-clicked, .section-energy .section-energy__article--no-clicked {
   width: 100%;
@@ -174,6 +186,10 @@
   width: 25%; }
   .section-energy .section-energy__article--no-clicked {
     background-color: #aaa694; }
+    .section-energy .section-energy__article--no-clicked svg {
+      margin: auto; }
+    .section-energy .section-energy__article--no-clicked h2 {
+      margin-bottom: 7rem; }
 
 .button-burger {
   position: absolute;
@@ -263,7 +279,7 @@
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background-color: #ffb599; }
+  background-color: #fffbe5; }
   .navbar img {
     position: relative;
     margin-top: 0.5rem;

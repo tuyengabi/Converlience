@@ -4,6 +4,15 @@
 .section-energy{
    width : 25%;
 .section-energy__article--no-clicked{
+
+     svg {
+       margin: auto;
+     }
+
+     h2 {
+       margin-bottom: 7rem;
+     }
+
    @extend %no-clicked;
    background-color: $energy;
 }

@@ -4,6 +4,15 @@
 .section-health{
    width: 25%;
    .section-health__article--no-clicked{
+
+     svg {
+       margin: auto;
+     }
+
+     h2 {
+       margin-bottom: 7rem;
+     }
+     
    @extend %no-clicked;
    background-color: $health;
 }
